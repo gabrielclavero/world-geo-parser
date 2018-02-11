@@ -14,6 +14,9 @@ After running the script you will have the following files and folders in your c
 - countries folder: in this folder you will find a json file for each country in the world, containing all the states/provinces within it.  
 - states folder: in this folder you will find a json file for each state/province of each country in the world, containing the cities within it.  
   
+## IMPORTANT
+
+Keep in mind after running the script some of the states will have TONS of cities on it (up to 11k maybe) Maybe what you want instead are the second-order administrative divisions of each country. To do that, use the feature class 'A' and feature code 'ADM2' to gather the data on step 3 of the script. 
   
 ## LICENSE
   
